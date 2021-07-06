@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #b3b3b3;
+    font-family: 'Rubik', sans-serif;
+}
+.form-con{
+    width: 390px;
+    height: 630px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+.signUp {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.times{
+    position: relative;
+    top: 39px;
+    left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container{
+    border: 1px solid #979797;
+    border-radius: 3px;
+    width: 70%;
+    height: 50%;
+    padding: 0 20px;
+    display: flex;
+    background-color: #EFF0F6;
+    margin-bottom: 10px;
+}
+.input-con{
+    width: 100%;
+}
+.label label{
+    padding-left: 2px;
+    font-size: 11px;
+    color: #979797;
+}
+#input{
+    border: none;
+    height: 16px;
+    width: 100%;
+    outline: none;
+    background-color: #EFF0F6;
+}
+i{
+    margin-top: 13px;
+    margin-right: 10px;
+    color: #979797;
+}
+#options{
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: #EFF0F6;
+    color: #979797;
+    font-family: 'Rubik', sans-serif;
+}
+.submit-con{
+    margin-top: 30px;
+    border: none;
+    display: inline;
+    background: #00D789;
+}
+#submit{
+    background: #00D789;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+.below-submit{
+    background-color: white;
+    border: none;
+    width: 80%;
+}
+p{
+    font-size: 10px;
+    text-align: left;
+}
+a{
+    color: #5A1CB9;
+}
